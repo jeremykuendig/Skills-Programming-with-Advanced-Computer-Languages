@@ -2,6 +2,7 @@
 Group Project (Completed Individually)
 
 **About**
+
 This project is a student assignment for the course Skills Programming with Advanced Computer Languages at the University of St. Gallen (HSG).
 Although designed as a group project, this work was completed individually.
 
@@ -11,6 +12,7 @@ This design ensures a realistic forecasting setting and avoids look-ahead bias.
 The project covers the full data science workflow, including data engineering, feature construction, model training, validation, hyperparameter tuning, and out-of-sample evaluation.
 
 **Project Objective**
+
 Predict inflation-adjusted NBA salaries for the following season
 Use a strict temporal setup (train on past seasons, test on future seasons)
 Compare the performance of three regression models:
@@ -19,6 +21,7 @@ Compare the performance of three regression models:
 - Tuned Random Forest
 
 **Pre-requisites**
+
 The project is implemented in R.
 To run the program, the following packages must be installed:
 - tidyverse
@@ -39,6 +42,7 @@ install.packages(c(
 ))
 
 **Instructions**
+
 Set the correct project root path in the script:
 NBA_PROJECT_ROOT <- "your/local/path"
 
@@ -56,6 +60,7 @@ The script will:
 - Evaluate final performance on the 2020 season
 
 **Methodology**
+
 Data Engineering (Part A):
 Player-season statistics are merged with salary data, salary cap information, and team performance records.
 Team names are standardized across datasets.
@@ -80,5 +85,6 @@ Evaluation Metrics:
 - MSE
 
 **Sources**
+
 - Basketball-Reference (player statistics and team data): https://www.basketball-reference.com/
 - NBA salary datasets: https://www.hoopshype.com/salaries/players/
