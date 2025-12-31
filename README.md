@@ -46,13 +46,18 @@ install.packages(c(
 Set the correct project root path in the script:
 NBA_PROJECT_ROOT <- "your/local/path"
 
-Ensure the required datasets are located in the /data folder:
-- NBA Player Stats (1950–2022)
-- NBA Salaries (1990–2023)
-- Salary cap data
-- Team records
+Inside the project root directory, create a folder named:
+/data
 
-Run the main R script from start to end.
+Download and place the following four datasets into the /data folder:
+- NBA Player Statistics (1950–2022)
+- NBA Salaries (1990–2023)
+- NBA Salary Cap data
+- NBA Team Records
+
+Ensure that the dataset filenames match exactly those referenced in the script.
+
+Run the main R script from start to finish.
 
 The script will:
 - Build a cleaned and feature-engineered dataset
